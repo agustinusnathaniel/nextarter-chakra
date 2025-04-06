@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@chakra-ui/react':
-        specifier: ^3.14.2
+        specifier: ^3.15.0
         version: 3.15.0(@emotion/react@11.14.0(@types/react@19.1.0)(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@emotion/react':
         specifier: ^11.14.0
@@ -37,7 +37,7 @@ importers:
         version: 5.5.0(react@19.1.0)
     devDependencies:
       '@chakra-ui/cli':
-        specifier: ^3.14.2
+        specifier: ^3.15.0
         version: 3.15.0(@chakra-ui/react@3.15.0(@emotion/react@11.14.0(@types/react@19.1.0)(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@commitlint/cli':
         specifier: ^19.8.0
