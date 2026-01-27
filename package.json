@@ -34,7 +34,7 @@
     "@emotion/react": "^11.14.0",
     "commit-and-tag-version": "^12.6.1",
     "knip": "^5.80.2",
-    "next": "^16.1.1",
+    "next": "^16.1.5",
     "next-themes": "^0.4.6",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
