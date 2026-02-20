@@ -107,3 +107,7 @@ pnpm biome:check
 # Fix issues automatically
 pnpm biome:fix
 ```
+
+## Deployment
+
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/web-apps-hosting)
