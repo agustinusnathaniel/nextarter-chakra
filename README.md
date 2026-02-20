@@ -1,5 +1,7 @@
 # nextarter-chakra
 
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/web-apps-hosting)
+
 <img src="https://og.sznm.dev/api/generate?heading=nextarter-chakra&text=Next.js+template+with+Chakra-UI+and+TypeScript+setup.&template=color&center=true&height=330" />
 
 <div align="center">
