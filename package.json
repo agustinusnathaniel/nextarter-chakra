@@ -33,7 +33,7 @@
     "@chakra-ui/react": "^3.33.0",
     "@emotion/react": "^11.14.0",
     "commit-and-tag-version": "^12.6.1",
-    "knip": "^5.83.1",
+    "knip": "^5.84.1",
     "next": "^16.1.6",
     "next-themes": "^0.4.6",
     "react": "^19.2.4",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.3.12",
     "@chakra-ui/cli": "^3.33.0",
-    "@commitlint/cli": "^20.4.1",
+    "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "20.2.0",
     "@commitlint/cz-commitlint": "20.2.0",
     "@playwright/test": "^1.58.2",
