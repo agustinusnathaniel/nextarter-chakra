@@ -42,14 +42,14 @@ export const CTASection = () => {
         <Button asChild size="sm">
           <a
             href="https://github.com/agustinusnathaniel/nextarter-chakra/generate"
-            rel="noopener"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Use This Template
           </a>
         </Button>
         <Button asChild size="sm">
-          <a href={repoLink} target="_blank">
+          <a href={repoLink} rel="noopener noreferrer" target="_blank">
             <AiFillGithub />
             Open in Github
           </a>
