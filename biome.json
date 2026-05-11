@@ -21,7 +21,9 @@
       "!src/**/*/utils.ts",
       "!src/**/*.css",
       "!*.d.ts",
-      "!public"
+      "!public",
+      "!.agents",
+      "!.claude"
     ]
   },
   "formatter": {
