@@ -46,7 +46,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.9",
     "@chakra-ui/cli": "^3.35.0",
-    "@commitlint/cli": "^20.5.0",
+    "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "20.5.0",
     "@commitlint/cz-commitlint": "20.5.0",
     "@playwright/test": "^1.60.0",
