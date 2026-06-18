@@ -6,11 +6,12 @@
   "engines": {
     "node": "^24.11.x"
   },
-  "packageManager": "pnpm@10.24.0",
-  "pnpm": {
-    "neverBuiltDependencies": [],
-    "overrides": {
-      "@types/react": "19.2.14"
+  "packageManager": "pnpm@11.8.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.16.0",
+      "onFail": "download"
     }
   },
   "scripts": {

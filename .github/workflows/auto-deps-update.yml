@@ -14,17 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       
-      - uses: actions/setup-node@v6
-        with:
-          node-version: '24'
-      
-      - uses: pnpm/action-setup@v6
+      - uses: pnpm/setup@v1
         with:
           cache: true
       
       - name: Update dependencies
         run: |
-          pnpm install
           pnpm update
           pnpm dedupe
           pnpm ultracite:fix

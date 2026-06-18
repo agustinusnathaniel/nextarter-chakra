@@ -1,0 +1,7 @@
+allowBuilds:
+  "@biomejs/biome": true
+  esbuild: true
+  sharp: true
+
+overrides:
+  "@types/react": "19.2.14"
