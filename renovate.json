@@ -7,7 +7,6 @@
   "updatePinnedDependencies": false,
   "stabilityDays": 2,
   "vulnerabilityAlerts": {
-    "stabilityDays": 0,
     "rangeStrategy": "bump",
     "labels": ["security"]
   },
