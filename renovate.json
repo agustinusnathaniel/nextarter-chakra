@@ -6,6 +6,10 @@
   },
   "updatePinnedDependencies": false,
   "stabilityDays": 2,
+  "vulnerabilityAlerts": {
+    "rangeStrategy": "bump",
+    "labels": ["security"]
+  },
   "timezone": "Asia/Jakarta",
   "schedule": ["before 1am on Monday"],
   "rangeStrategy": "bump",
