@@ -10,7 +10,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.16.0",
+      "version": "^24.18.0",
       "onFail": "download"
     }
   },
@@ -36,28 +36,29 @@
   "dependencies": {
     "@chakra-ui/react": "^3.36.1",
     "@emotion/react": "^11.14.0",
-    "commit-and-tag-version": "^12.7.3",
+    "commit-and-tag-version": "^13.0.0",
     "knip": "^6.31.0",
-    "next": "16.2.6",
+    "next": "16.3.0",
     "next-themes": "^0.4.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
     "react-icons": "^5.7.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.9",
+    "@biomejs/biome": "2.5.4",
     "@chakra-ui/cli": "^3.36.1",
-    "@commitlint/cli": "^20.5.3",
-    "@commitlint/config-conventional": "20.5.0",
-    "@commitlint/cz-commitlint": "20.5.0",
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "21.2.0",
+    "@commitlint/cz-commitlint": "21.2.0",
     "@playwright/test": "^1.62.1",
-    "@types/react": "19.2.14",
+    "@types/node": "^26.1.1",
+    "@types/react": "19.2.17",
     "commitizen": "^4.3.2",
     "cross-env": "^10.1.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.1.0",
     "next-sitemap": "^4.2.3",
-    "typescript": "^6.0.3",
-    "ultracite": "7.3.2"
+    "typescript": "~7.0.2",
+    "ultracite": "7.9.4"
   }
 }
