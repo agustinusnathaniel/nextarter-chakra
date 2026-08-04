@@ -2,6 +2,7 @@
 const CommitLintConfiguration = {
   extends: ['@commitlint/config-conventional'],
   rules: {
+    'scope-case': [2, 'always', 'kebab-case'],
     // add your own scope here if needed
     'scope-enum': [
       2,
@@ -17,7 +18,6 @@ const CommitLintConfiguration = {
         'deps',
       ],
     ],
-    'scope-case': [2, 'always', 'kebab-case'],
   },
 };
 

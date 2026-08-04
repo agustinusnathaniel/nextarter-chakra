@@ -9,10 +9,8 @@ type HelperImageProps = {
 
 const size = 5;
 
-export const HelperImage = ({ label = '', src }: HelperImageProps) => {
-  return (
-    <Tooltip aria-label={label} content={label} showArrow>
-      <Image alt={label} height={size} src={src} title={label} width={size} />
-    </Tooltip>
-  );
-};
+export const HelperImage = ({ label = '', src }: HelperImageProps) => (
+  <Tooltip aria-label={label} content={label} showArrow>
+    <Image alt={label} height={size} src={src} title={label} width={size} />
+  </Tooltip>
+);
