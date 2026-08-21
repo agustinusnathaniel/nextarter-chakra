@@ -3,35 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "author": "agustinusnathaniel",
-  "engines": {
-    "node": "^24.11.x"
-  },
-  "packageManager": "pnpm@11.8.0",
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "version": "^24.19.0",
-      "onFail": "download"
-    }
-  },
   "scripts": {
-    "dev": "next dev",
+    "biome:ci": "biome ci",
     "build": "next build",
-    "turbo": "pnpm dlx turbo@2.6.1",
-    "build:turbo": "pnpm turbo run build",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
+    "build:turbo": "pnpm turbo run build",
+    "check:turbo": "pnpm turbo ultracite:check type:check",
+    "dev": "next dev",
+    "prepare": "husky",
+    "push-release": "git push --follow-tags origin main",
+    "release": "cross-env HUSKY=0 commit-and-tag-version",
+    "start": "next start",
+    "test:e2e": "playwright test",
+    "turbo": "pnpm dlx turbo@2.6.1",
+    "type:check": "tsc --noEmit",
     "ultracite:check": "ultracite check",
     "ultracite:fix": "ultracite fix",
-    "biome:ci": "biome ci",
-    "start": "next start",
-    "type:check": "tsc --noEmit",
-    "check:turbo": "pnpm turbo ultracite:check type:check",
-    "test:e2e": "playwright test",
     "up-interactive": "pnpm up -i",
-    "up-latest": "pnpm up-interactive -L",
-    "release": "cross-env HUSKY=0 commit-and-tag-version",
-    "push-release": "git push --follow-tags origin main",
-    "prepare": "husky"
+    "up-latest": "pnpm up-interactive -L"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.1",
@@ -60,5 +49,16 @@
     "next-sitemap": "^4.2.3",
     "typescript": "~7.0.2",
     "ultracite": "7.10.6"
+  },
+  "packageManager": "pnpm@11.8.0",
+  "engines": {
+    "node": "^24.11.x"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.19.0",
+      "onFail": "download"
+    }
   }
 }
