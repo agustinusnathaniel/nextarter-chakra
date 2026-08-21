@@ -48,3 +48,6 @@ sitemap*.xml
 
 # Turbo
 .turbo
+
+# Playwright
+test-results/
