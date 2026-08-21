@@ -3,4 +3,8 @@ allowBuilds:
   esbuild: true
   sharp: true
 
-minimumReleaseAge: 1
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  - next
+  - '@next/*'
