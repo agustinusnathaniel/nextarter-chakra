@@ -3,5 +3,8 @@ allowBuilds:
   esbuild: true
   sharp: true
 
-overrides:
-  "@types/react": "19.2.14"
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  - next
+  - '@next/*'
