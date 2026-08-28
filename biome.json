@@ -38,6 +38,14 @@
     },
     "rules": {
       "preset": "recommended",
+      "complexity": {
+        "noExcessiveLinesPerFunction": {
+          "level": "error",
+          "options": {
+            "maxLines": 60
+          }
+        }
+      },
       "performance": {
         "noBarrelFile": "off"
       },
@@ -53,6 +61,13 @@
           "level": "error",
           "options": {
             "filenameCases": ["kebab-case"]
+          }
+        },
+        "noExcessiveLinesPerFile": {
+          "level": "error",
+          "options": {
+            "maxLines": 500,
+            "skipBlankLines": true
           }
         }
       }
