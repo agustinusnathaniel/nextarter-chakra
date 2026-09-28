@@ -50,7 +50,7 @@
     "typescript": "~7.0.2",
     "ultracite": "7.10.6"
   },
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@12.6.0",
   "engines": {
     "node": "^24.11.x"
   },
