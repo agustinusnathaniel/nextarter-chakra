@@ -52,12 +52,12 @@
   },
   "packageManager": "pnpm@12.6.0",
   "engines": {
-    "node": "^24.11.x"
+    "node": "^24.22.x"
   },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.19.0",
+      "version": "^24.22.1",
       "onFail": "download"
     }
   }
