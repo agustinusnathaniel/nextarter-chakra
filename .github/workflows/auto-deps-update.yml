@@ -10,29 +10,29 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    
+
     steps:
       - uses: actions/checkout@v7
-      
+
       - uses: pnpm/setup@v3
         with:
           cache: true
-      
+
       - name: Update dependencies
         run: |
           pnpm update
           pnpm dedupe
           pnpm ultracite:fix
-      
+
       - name: Create PR
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore(deps): auto update dependencies'
-          title: 'chore(deps): auto update dependencies'
+          commit-message: "chore(deps): auto update dependencies"
+          title: "chore(deps): auto update dependencies"
           body: |
             Automated dependency update by GitHub Actions.
-            
+
             - All dependencies updated to latest
             - Checks passed: pnpm check:turbo
           branch: chore/auto-deps-update
